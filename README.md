@@ -6,7 +6,7 @@ Carrinho de compras: permite aos usuários adicionar produtos ao carrinho, visua
 Gerenciamento de produtos: inclui recursos para adicionar, editar e remover produtos do catálogo da loja.
 Processamento de pagamentos: integração com sistemas de pagamento para processar pagamentos de forma segura e confiável.
 Integração com sistemas de terceiros: permite integração com APIs ou serviços externos para recursos adicionais, como envio de notificações, análise de dados, etc.
-Habilidades Requeridas
+## Habilidades Requeridas
 MySQL para gerenciamento de banco de dados.
 Desenvolvimento back-end utilizando ASP.NET e C#.
 Utilização do Docker Desktop para facilitar o ambiente de desenvolvimento.
