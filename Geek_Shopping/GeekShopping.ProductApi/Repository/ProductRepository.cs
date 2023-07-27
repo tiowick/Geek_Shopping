@@ -49,7 +49,7 @@ namespace GeekShopping.ProductApi.Repository
             {
                 Product product = await _context.Products.Where(p => p.Id == id)
                     .FirstOrDefaultAsync() ?? new Product();
-                if (product == null) return false;
+                if (product.Id <= 0) return false;
                 _context.Products.Remove(product);
                 await _context.SaveChangesAsync();
                 return true;
