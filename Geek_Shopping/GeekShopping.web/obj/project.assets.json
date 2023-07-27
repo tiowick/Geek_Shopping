@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Micro\\Documents\\Repositorio\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\GeekShopping.web.csproj",
+      "projectUniqueName": "C:\\Users\\Micro\\Documents\\Repositório\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\GeekShopping.web.csproj",
       "projectName": "GeekShopping.web",
-      "projectPath": "C:\\Users\\Micro\\Documents\\Repositorio\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\GeekShopping.web.csproj",
+      "projectPath": "C:\\Users\\Micro\\Documents\\Repositório\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\GeekShopping.web.csproj",
       "packagesPath": "C:\\Users\\Micro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Micro\\Documents\\Repositorio\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\obj\\",
+      "outputPath": "C:\\Users\\Micro\\Documents\\Repositório\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
