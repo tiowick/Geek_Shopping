@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f+AGEqca4qKu5rxbu132oHfzUfftQ6lWOE3RLGdaYcIogmYXWYnhSkjVWUFZuYKv1mw4wEcwHvJp2UxO5t2ctw==",
+  "dgSpecHash": "1auB132xjH0rpfPEqocFJcD0Q6m6fFBF2MWslGSpVTqjvms3zT5N5v50pRUlrSRhyu+yoxnML5tXZZRMGoNrMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Micro\\Documents\\Repositório\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\GeekShopping.ProductApi.csproj",
+  "projectFilePath": "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\GeekShopping.ProductApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Micro\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Micro\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

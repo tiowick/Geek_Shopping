@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Micro\\Documents\\Repositório\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\GeekShopping.ProductApi.csproj": {}
+    "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\GeekShopping.ProductApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Micro\\Documents\\Repositório\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\GeekShopping.ProductApi.csproj": {
+    "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\GeekShopping.ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Micro\\Documents\\Repositório\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\GeekShopping.ProductApi.csproj",
+        "projectUniqueName": "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\GeekShopping.ProductApi.csproj",
         "projectName": "GeekShopping.ProductApi",
-        "projectPath": "C:\\Users\\Micro\\Documents\\Repositório\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\GeekShopping.ProductApi.csproj",
+        "projectPath": "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\GeekShopping.ProductApi.csproj",
         "packagesPath": "C:\\Users\\Micro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Micro\\Documents\\Repositório\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\obj\\",
+        "outputPath": "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.ProductApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

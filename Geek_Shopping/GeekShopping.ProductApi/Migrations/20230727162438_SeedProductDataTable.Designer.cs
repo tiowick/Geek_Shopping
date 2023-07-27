@@ -2,6 +2,7 @@
 using GeekShopping.ProductApi.Model.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GeekShopping.ProductApi.Migrations
 {
     [DbContext(typeof(MySQLContext))]
-    partial class MySQLContextModelSnapshot : ModelSnapshot
+    [Migration("20230727162438_SeedProductDataTable")]
+    partial class SeedProductDataTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -34,7 +36,7 @@ namespace GeekShopping.ProductApi.Migrations
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(500)
-                        .HasColumnType("varchar(500)")
+                        .HasColumnType("varchar(600)")
                         .HasColumnName("description");
 
                     b.Property<string>("Name")
@@ -50,7 +52,7 @@ namespace GeekShopping.ProductApi.Migrations
                     b.Property<string>("imageURL")
                         .IsRequired()
                         .HasMaxLength(300)
-                        .HasColumnType("varchar(300)")
+                        .HasColumnType("varchar(500)")
                         .HasColumnName("image_url");
 
                     b.HasKey("Id");

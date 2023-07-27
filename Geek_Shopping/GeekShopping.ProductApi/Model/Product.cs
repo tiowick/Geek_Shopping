@@ -18,11 +18,11 @@ namespace GeekShopping.ProductApi.Model
         public decimal Price { get; set; }
 
         [Column("description")]
-        [StringLength(500)]
+        [StringLength(600)]
         public String Description { get; set; }
 
         [Column("category_name")]
-        [StringLength(50)]
+        [StringLength(500)]
         public string CategoryName { get; set; }
 
         [Column("image_url")]

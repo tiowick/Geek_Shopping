@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tj8ObP2sV2sR2a1/lFG6CgjMgbkg5lzEjWleCR3qgnkBYMFkvTqmy8DTSRr4ODmtMEi9SFInovPm9Hx7dTA9Jg==",
+  "dgSpecHash": "RjT68o3PvaO0b7emDhrWkBmm+L7YFK0FwaBmSKhiyv59d+u5BiZ294uortkCjF6yDvdZnU59KyaX56j7p+WIvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Micro\\Documents\\Repositório\\ApiRest_Dotnet\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\GeekShopping.web.csproj",
+  "projectFilePath": "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\GeekShopping.web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
