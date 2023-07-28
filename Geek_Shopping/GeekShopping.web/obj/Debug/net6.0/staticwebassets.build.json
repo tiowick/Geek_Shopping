@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zv6rafvt37vcrASEW9vskTOUkx3O830byEXJHeqyQDY=",
+  "Hash": "+37P0B/+vJSJlWfO+DjJfvi4ufgiup5XcfUqrls3CPg=",
   "Source": "GeekShopping.web",
   "BasePath": "_content/GeekShopping.web",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\wwwroot\\Images\\favicon.png",
+      "SourceId": "GeekShopping.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\wwwroot\\",
+      "BasePath": "_content/GeekShopping.web",
+      "RelativePath": "Images/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\wwwroot\\Images\\geek_shopping.png",
+      "SourceId": "GeekShopping.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\wwwroot\\",
+      "BasePath": "_content/GeekShopping.web",
+      "RelativePath": "Images/geek_shopping.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\geek_shopping.png"
     },
     {
       "Identity": "C:\\Users\\Micro\\Documents\\Repositório\\Geek_Shopping\\Geek_Shopping\\GeekShopping.web\\wwwroot\\js\\site.js",

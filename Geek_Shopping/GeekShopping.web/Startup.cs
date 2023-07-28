@@ -13,17 +13,38 @@ namespace GeekShopping.web
 
         public IConfiguration Configuration { get; }
 
+        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddHttpClient<IProductService, ProductService>(c => c.BaseAddress = new Uri(Configuration["Services:ProductApi"]));
-            services.AddControllers();
-
+            services.AddHttpClient<IProductService, ProductService>(c =>
+                    c.BaseAddress = new Uri(Configuration["ServiveUrls:ProductAPI"])
+                );
+            services.AddControllersWithViews();
         }
-        public void Configure(WebApplication app, IWebHostEnvironment environment)
+
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Home/Error");
+            }
+            app.UseStaticFiles();
+
+            app.UseRouting();
+
             app.UseAuthorization();
 
-            app.MapControllers();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
         }
     }
 }

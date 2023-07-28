@@ -5,32 +5,41 @@ namespace GeekShopping.web.Utils
 {
     public static class HttpClientExtensions
     {
-        private static MediaTypeHeaderValue contentType = MediaTypeHeaderValue.Parse("application/json");
-        public static async Task<T> ReadContentTAs<T>(this HttpResponseMessage response)
+        private static MediaTypeHeaderValue contentType
+            = new MediaTypeHeaderValue("application/json");
+        public static async Task<T> ReadContentAs<T>(
+            this HttpResponseMessage response)
         {
-            if (!response.IsSuccessStatusCode) throw new ApplicationException(
-                $"Something went wrong calling Api!: " +
-                $"{response.ReasonPhrase}");
-
+            if (!response.IsSuccessStatusCode) throw
+                     new ApplicationException(
+                         $"Something went wrong calling the API: " +
+                         $"{response.ReasonPhrase}");
             var dataAsString = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
             return JsonSerializer.Deserialize<T>(dataAsString,
-                new JsonSerializerOptions 
-                {PropertyNameCaseInsensitive = true });
+                new JsonSerializerOptions
+                { PropertyNameCaseInsensitive = true });
         }
 
-        public static Task<HttpResponseMessage> PostAsJson<T>(this HttpClient httpClent, string url, T data)
+        public static Task<HttpResponseMessage> PostAsJson<T>(
+            this HttpClient httpClient,
+            string url,
+            T data)
         {
             var dataAsString = JsonSerializer.Serialize(data);
             var content = new StringContent(dataAsString);
             content.Headers.ContentType = contentType;
-            return httpClent.PostAsync(url, content);
+            return httpClient.PostAsync(url, content);
         }
-        public static Task<HttpResponseMessage> PutAsJson<T>(this HttpClient httpClent, string url, T data)
+
+        public static Task<HttpResponseMessage> PutAsJson<T>(
+            this HttpClient httpClient,
+            string url,
+            T data)
         {
             var dataAsString = JsonSerializer.Serialize(data);
             var content = new StringContent(dataAsString);
             content.Headers.ContentType = contentType;
-            return httpClent.PutAsync(url, content);
+            return httpClient.PutAsync(url, content);
         }
     }
 }
