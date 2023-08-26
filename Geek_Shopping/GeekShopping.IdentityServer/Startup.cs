@@ -51,7 +51,6 @@ namespace GeekShopping.IdentityServer
                     .AddInMemoryClients(IdentityConfiguration.Clients)
                     .AddAspNetIdentity<ApplicationUser>();
 
-            services.AddScoped<IProfileService, ProfileService>();
             services.AddScoped<IDBInitializer, DBInitializer>();
 
             builder.AddDeveloperSigningCredential();
@@ -61,7 +60,8 @@ namespace GeekShopping.IdentityServer
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, 
-            IWebHostEnvironment env, IDBInitializer initializer)
+            IWebHostEnvironment env, 
+            IDBInitializer initializer)
         {
             if (env.IsDevelopment())
             {

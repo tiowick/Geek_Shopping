@@ -53,9 +53,9 @@ namespace GeekShopping.IdentityServer.Initializer
             ApplicationUser client = new ApplicationUser()
             {
                 UserName = "Jeferson-client",
-                Email = "Jeferson-admin@gmail.com.br",
+                Email = "Jeferson-client@gmail.com.br",
                 EmailConfirmed = true,
-                PhoneNumber = "+55 (71) 93085732",
+                PhoneNumber = "+55 (71) 984687668",
                 FirstName = "Jeferson",
                 LastName = "Client"
             };
