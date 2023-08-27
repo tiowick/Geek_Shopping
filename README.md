@@ -1,4 +1,4 @@
-# Loja Virtual - Plataforma Dotnet 6 🏪
+# Loja Virtual 🏪
 Este projeto é uma loja virtual desenvolvida na plataforma Dotnet 6, com foco na implementação das seguintes funcionalidades: carrinho de compras, gerenciamento de produtos, processamento de pagamentos e integração com sistemas de terceiros.
 
 ## Funcionalidades
