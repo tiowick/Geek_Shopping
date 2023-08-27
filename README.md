@@ -34,7 +34,7 @@ Git
 GitHub
 JSON Web Token (JWT)
 MySQL
-## Como Contribuir
+## Como Contribuir 📌
 Se você deseja contribuir para este projeto, siga as etapas abaixo:
 
 Faça um fork deste repositório e clone-o para o seu ambiente de desenvolvimento.
@@ -45,7 +45,7 @@ Envie as alterações para o repositório remoto: git push origin feature/nome-d
 Abra um Pull Request neste repositório e descreva suas alterações.
 Por favor, tenha em mente que este projeto segue os princípios do código aberto, portanto, todas as contribuições são bem-vindas e apreciadas.
 
-## Licença
+## Licença 📍
 
 Este projeto está licenciado sob a MIT License.
 
