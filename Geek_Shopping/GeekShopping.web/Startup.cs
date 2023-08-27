@@ -65,6 +65,8 @@ namespace GeekShopping.web
 
             app.UseAuthorization();
 
+            app.UseAuthorization();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

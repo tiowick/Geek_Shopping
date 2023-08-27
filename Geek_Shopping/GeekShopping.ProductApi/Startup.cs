@@ -4,6 +4,7 @@ using GeekShopping.ProductApi.Model.Context;
 using GeekShopping.ProductApi.Repository;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace GeekShopping.ProductApi
 {
@@ -33,7 +34,27 @@ namespace GeekShopping.ProductApi
             services.AddScoped<IProductRepository, ProductRepository>();
 
             services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+            services.AddAuthentication("Bearer")
+                .AddJwtBearer(options =>
+                {
+                    options.Authority = "https://localhost:4435/";
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateAudience = false
+                    };
+                });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("ApiScope", policy =>
+                {
+                    policy.RequireAuthenticatedUser();
+                    policy.RequireClaim("scope", "geek_shopping");
+                });
+
+            });
+            
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
         }
@@ -49,6 +70,8 @@ namespace GeekShopping.ProductApi
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
