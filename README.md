@@ -1,12 +1,12 @@
 # Loja Virtual 🏪
 Este projeto é uma loja virtual desenvolvida na plataforma Dotnet 6, com foco na implementação das seguintes funcionalidades: carrinho de compras, gerenciamento de produtos, processamento de pagamentos e integração com sistemas de terceiros.
 
-## Funcionalidades
+## Funcionalidades ⚙️
 Carrinho de compras: permite aos usuários adicionar produtos ao carrinho, visualizar o carrinho atual e fazer o checkout.
 Gerenciamento de produtos: inclui recursos para adicionar, editar e remover produtos do catálogo da loja.
 Processamento de pagamentos: integração com sistemas de pagamento para processar pagamentos de forma segura e confiável.
 Integração com sistemas de terceiros: permite integração com APIs ou serviços externos para recursos adicionais, como envio de notificações, análise de dados, etc.
-## Habilidades Requeridas
+## Habilidades Requeridas 🧠 
 MySQL para gerenciamento de banco de dados.
 Desenvolvimento back-end utilizando ASP.NET e C#.
 Utilização do Docker Desktop para facilitar o ambiente de desenvolvimento.
@@ -19,7 +19,7 @@ Capacidade de analisar dados para obter insights relevantes.
 Experiência usando Git e Github para controle de versão e colaboração em equipe.
 Conhecimento em arquitetura de sistemas para criar uma estrutura robusta e escalável.
 Domínio dos principais métodos HTTP, como PUT, GET, POST e DELETE, para o tratamento adequado dos recursos da aplicação.
-## Competências
+## Competências 📚
 ASP.NET MVC
 Arquitetura MVC
 Microservices
