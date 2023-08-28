@@ -738,3 +738,4 @@ C:\Users\Micro\Documents\Repositório\Geek_Shopping\Geek_Shopping\GeekShopping.I
 C:\Users\Micro\Documents\Repositório\Geek_Shopping\Geek_Shopping\GeekShopping.IdentityServer\obj\Debug\net6.0\ref\GeekShopping.IdentityServer.dll
 C:\Users\Micro\Documents\Repositório\Geek_Shopping\Geek_Shopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Micro\Documents\Repositório\Geek_Shopping\Geek_Shopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Micro\Documents\Repositório\Geek_Shopping\Geek_Shopping\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-C8E496CEA2E5D98922149C771E8E9E59.json

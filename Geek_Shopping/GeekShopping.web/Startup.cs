@@ -18,7 +18,7 @@ namespace GeekShopping.web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient<IProductService, ProductService>(c =>
-                    c.BaseAddress = new Uri(Configuration["ServiveUrls:ProductAPI"])
+                    c.BaseAddress = new Uri(Configuration["ServiceUrls:ProductAPI"])
                 );
             services.AddControllersWithViews();
             services.AddAuthentication(options =>
@@ -30,7 +30,7 @@ namespace GeekShopping.web
                 .AddCookie("Cookies", c => c.ExpireTimeSpan = TimeSpan.FromMinutes(10))
                 .AddOpenIdConnect("oidc", options =>
                 {
-                    options.Authority = Configuration["ServiveUrls:IdentityServer"];
+                    options.Authority = Configuration["ServiceUrls:IdentityServer"];
                     options.GetClaimsFromUserInfoEndpoint = true;
                     options.ClientId = "geek_shopping";
                     options.ClientSecret = "my_super_secret";
@@ -63,7 +63,7 @@ namespace GeekShopping.web
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
