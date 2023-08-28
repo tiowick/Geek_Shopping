@@ -53,6 +53,8 @@ namespace GeekShopping.IdentityServer
 
             services.AddScoped<IDBInitializer, DBInitializer>();
 
+            services.AddScoped<IProfileService, ProfileService>();
+
             builder.AddDeveloperSigningCredential();
 
             services.AddControllersWithViews();
