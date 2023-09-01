@@ -1,13 +1,18 @@
-﻿namespace GeekShopping.web.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace GeekShopping.web.Models
 {
     public class ProductModel
     {
         public long id { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
-        public String Description { get; set; }
+        public string Description { get; set; }
         public string CategoryName { get; set; }
         public string imageURL { get; set; }
+
+        [Range(1, 100)]
+        public int Count { get; set; } = 1;
 
         public string SubStringName () 
         {
