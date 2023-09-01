@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using GeekShopping.ProductApi.Config;
-using GeekShopping.ProductApi.Model.Context;
-using GeekShopping.ProductApi.Repository;
+using GeekShopping.CartApi.Config;
+using GeekShopping.CartApi.Model.Context;
+using GeekShopping.CartApi.Repository;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
-namespace GeekShopping.ProductApi
+namespace GeekShopping.CartApi
 {
     public class Startup
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace GeekShopping.ProductApi.Model.Context
+namespace GeekShopping.CartApi.Model.Context
 {
     public class MySQLContext : DbContext
     {

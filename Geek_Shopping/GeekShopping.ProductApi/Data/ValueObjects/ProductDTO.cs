@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace GeekShopping.ProductApi.Data.ValueObjects
+namespace GeekShopping.CartApi.Data.ValueObjects
 {
     public class ProductDTO
     {

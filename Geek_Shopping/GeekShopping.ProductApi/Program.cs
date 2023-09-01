@@ -1,4 +1,4 @@
-using GeekShopping.ProductApi;
+using GeekShopping.CartApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
