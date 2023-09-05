@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using GeekShopping.CartApi.Config;
 using GeekShopping.CartApi.Model.Context;
+using GeekShopping.CartApi.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -29,7 +30,7 @@ namespace GeekShopping.CartApi
             services.AddSingleton(mapper);
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            //services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<ICartRepostory, CartRepository>();
 
             services.AddControllers();
 
