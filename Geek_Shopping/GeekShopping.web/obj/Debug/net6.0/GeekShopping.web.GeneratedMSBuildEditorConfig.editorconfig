@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Micro\Documents\Repositório\Geek_Shopping\Geek_Shopping\GeekShopping.web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Micro/Documents/Repositório/Geek_Shopping/Geek_Shopping/GeekShopping.web/Views/Cart/CartIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Micro/Documents/Repositório/Geek_Shopping/Geek_Shopping/GeekShopping.web/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -54,7 +54,7 @@ namespace GeekShopping.CartApi.Controllers
             return Ok(status);
         }
 
-        [HttpPost("remove-cupom/{userId}")]
+        [HttpDelete("remove-cupom/{userId}")]
         public async Task<ActionResult<CartDTO>> RemoveCupom(string userId)
         {
             var status = await _repository.RemoveCupom(userId);
