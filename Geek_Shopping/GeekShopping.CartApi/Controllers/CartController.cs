@@ -24,14 +24,14 @@ namespace GeekShopping.CartApi.Controllers
             return Ok(cart);
         }
 
-        [HttpPost("add-cart/{id}")]
+        [HttpPost("add-cart")]
         public async Task<ActionResult<CartDTO>> AddCart(CartDTO Dto)
         {
             var cart = await _repository.SaveOrUpdateCart(Dto);
             if (cart == null) return NotFound();
             return Ok(cart);
         }
-        [HttpPut("update-cart/{id}")]
+        [HttpPut("update-cart")]
         public async Task<ActionResult<CartDTO>> UpdateCart(CartDTO Dto)
         {
             var cart = await _repository.SaveOrUpdateCart(Dto);
@@ -45,6 +45,24 @@ namespace GeekShopping.CartApi.Controllers
             if (!status) return BadRequest();
             return Ok();
         }
+
+        [HttpPost("apply-cupom")]
+        public async Task<ActionResult<CartDTO>> ApplyCupom(CartDTO Dto)
+        {
+            var status = await _repository.ApplyCupom(Dto.CartHeader.UserId, Dto.CartHeader.CupomCode);
+            if (!status) return NotFound();
+            return Ok(status);
+        }
+
+        [HttpPost("remove-cupom/{userId}")]
+        public async Task<ActionResult<CartDTO>> RemoveCupom(string userId)
+        {
+            var status = await _repository.RemoveCupom(userId);
+            if (!status) return NotFound();
+            return Ok(status);
+        }
+
+
     }
 }
 
